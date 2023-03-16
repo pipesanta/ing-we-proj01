@@ -163,3 +163,57 @@ main {
     font-weight: 600;
     margin: 12px;
 }
+
+
+/* FOOTER SECTION */
+footer {
+    background-color: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+footer div.topics-section {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+footer div.item span.title {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+footer div.item span.description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+}
+
+footer div.item span.view-more {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3483FA;
+    cursor: pointer;
+}
+
+footer div.titles span {
+    font-size: 12px;
+    color: #333333;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+footer div.copyright span {
+    font-size: 11px;
+    color: #999999;
+    font-weight: 400;
+}
+
+footer div.address span {
+    font-size: 11px;
+    color: #999999;
+    font-weight: 400;
+    
+}
+
+footer div.legal {
+    border-bottom: 1px solid #EBEBEB;
+}
