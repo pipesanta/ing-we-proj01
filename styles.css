@@ -34,6 +34,7 @@ main {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 12px;
+    padding-bottom: 20px;
     height: max-content;
 
 }
@@ -55,4 +56,50 @@ main {
     font-size: 13px;
     color: #3483FA;
     cursor: pointer;
+}
+
+#payment-methods-section div.separator-left {
+    border-left: 1px solid #EBEBEB;
+}
+
+
+/* OFFERS SECTION */
+#offers-section span.title {
+    font-size: 25px;
+}
+
+#offers-section span.view-more {
+    font-size: 15px;
+    color: #3483FA;
+    cursor: pointer;
+}
+
+#offers-section div.picture {
+    max-width: 224px;
+    max-height: 224px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#offers-section .offer-item{
+    background-color: #FFFFFF;
+}
+
+#offers-section div.info {
+    padding-left: 12px;
+    padding-bottom: 8px;
+}
+
+#offers-section div.info span.price {
+    color: #333333;
+    font-size: 23px;
+}
+
+#offers-section div.info span.discount {
+    color: #00A650;
+    font-size: 13px;    
+}
+
+#offers-section div.info span.free-shipping {
+    color: #00A650;
+    font-size: 13px;    
 }
