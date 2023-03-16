@@ -13,3 +13,9 @@
     height: 39px;
     width: 100%;
 }
+
+#header-sections span {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+}
