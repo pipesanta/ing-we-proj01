@@ -103,3 +103,63 @@ main {
     color: #00A650;
     font-size: 13px;    
 }
+
+/* SUBSCRIPTION SECTION */
+
+#subscription-section {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+#subscription-section .gradient {
+    background: rgb(169,15,144);
+    background: linear-gradient(90deg, rgba(169,15,144,1) 46%, rgba(28,25,87,1) 100%);
+    height: 87px;
+}
+
+#subscription-section div.title span{
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+#subscription-section div.r-side{
+   border-left: 4px solid white;
+   padding-left: 12px;
+}
+
+
+#subscription-section div.r-side span{
+    color: #EBEBEB;
+}
+
+#subscription-section div.r-side .price-1{
+    font-size: 14px;
+    text-decoration-line: line-through;
+}
+
+#subscription-section div.r-side .price-2{
+    font-size: 22px;
+}
+
+#subscription-section div.r-side .period {
+    font-size: 14px;
+}
+
+#subscription-section div.benefits {
+    border-bottom: 1px solid #EBEBEB;
+}
+
+#subscription-section div.benefits span.text {
+    max-width: 250px;
+    line-height: 18px;
+}
+
+#subscription-section div.subscribe-btn {
+    padding: 8px 30px;
+    border-radius: 6px;
+    background-color: #3483FA ;
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 12px;
+}
