@@ -32,8 +32,8 @@
 
 main {
     background-color: #EBEBEB;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 12px;
     padding-bottom: 20px;
     height: max-content;
@@ -290,6 +290,7 @@ footer div.legal {
     color: #3483FA;
     font-size: 15px;
     font-weight: 400;
+    cursor: pointer;
 }
 
 #stores-section div.item-list div.item {
@@ -327,3 +328,34 @@ footer div.legal {
     color: #bcbaba;
     cursor: pointer;
 }
+
+/* DISCOVER SECTION */
+
+#discover-section div.title {
+    font-size: 26px;
+    font-weight: 300;
+    color: #666666;
+}
+
+#discover-section div.item-list div.item {
+    background-color: #FFFFFF;
+}
+
+
+#discover-section div.item-list div.item div.left span.small-text {
+    font-size: 12px;    
+}
+
+#discover-section div.item-list div.item div.left span.medium-text {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#discover-section div.item-list div.item div.left div.view-more {
+    background-color: #3483FA;
+    border-radius: 6px;
+}
+
+
+
