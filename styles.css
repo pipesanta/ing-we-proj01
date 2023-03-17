@@ -217,3 +217,27 @@ footer div.address span {
 footer div.legal {
     border-bottom: 1px solid #EBEBEB;
 }
+
+
+/* POPULAR CATEGORIES SECTION */
+
+#popular-categories-section div.popular-categories-list {
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+#popular-categories-section div.popular-category-item {
+    /* border: 1px solid rebeccapurple; */
+    width: 170px;
+    height: 170px;
+    text-align: center;
+}
+
+#popular-categories-section span.title {
+    font-size: 25px;
+}
+
+
+#popular-categories-section div.popular-categories-list div.popular-category-item {
+    width: 14%;
+}
