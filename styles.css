@@ -241,3 +241,30 @@ footer div.legal {
 #popular-categories-section div.popular-categories-list div.popular-category-item {
     width: 14%;
 }
+
+
+/* COLLECTION SECTION */
+
+#collection-section  div.left-side-description span.title {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+#collection-section  div.left-side-description span.market {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#collection-section div.left-section div.description  div.discover {
+    font-size: 12px;    
+}
+
+#collection-section div.left-section div.description div.super-market {
+    font-size: 28px;    
+    font-weight: 700;
+}
+
+#collection-section  div.secondary-items div {
+    width: 25%;
+    padding: 5px 5px;
+}
