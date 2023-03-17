@@ -343,7 +343,7 @@ footer div.legal {
 
 
 #discover-section div.item-list div.item div.left span.small-text {
-    font-size: 12px;    
+    font-size: 12px;
 }
 
 #discover-section div.item-list div.item div.left span.medium-text {
@@ -357,5 +357,44 @@ footer div.legal {
     border-radius: 6px;
 }
 
+#market-benefits div.title span.title-2 {
+    font-size: 25px;
+    color: #666666;
+    font-weight: 300;
+}
+
+#market-benefits div.title span.view-more {
+    font-size: 15px;
+    color: #3483FA;
+    cursor: pointer;
+}
+
+#market-benefits div.list-container div.item-01 {
+    background-image: url('assets/pictures/benefits/pic_01.svg');
+}
+
+#market-benefits div.list-container div.item-02 {
+    background-image: url('assets/pictures/benefits/pic_02.svg');
+}
+
+#market-benefits div.list-container div.item-03 {
+    background-image: url('assets/pictures/benefits/pic_03.svg');
+}
+
+#market-benefits div.list-container div.child {    
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    border-radius: 6px;
+}
 
 
+#market-benefits div.description {
+    color: #FFFFFF;
+}
+
+#market-benefits span.text-3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+}
