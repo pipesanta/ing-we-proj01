@@ -9,7 +9,7 @@
 
 .header .search-box input {
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;  
+    border-radius: 2px;
     height: 39px;
     width: 100%;
 }
@@ -25,6 +25,7 @@
 .sub-header {
     max-height: 340px;
 }
+
 .sub-header .object {
     max-height: 340px;
 }
@@ -80,7 +81,7 @@ main {
     border-bottom: 1px solid #EBEBEB;
 }
 
-#offers-section .offer-item{
+#offers-section .offer-item {
     background-color: #FFFFFF;
 }
 
@@ -96,12 +97,12 @@ main {
 
 #offers-section div.info span.discount {
     color: #00A650;
-    font-size: 13px;    
+    font-size: 13px;
 }
 
 #offers-section div.info span.free-shipping {
     color: #00A650;
-    font-size: 13px;    
+    font-size: 13px;
 }
 
 /* SUBSCRIPTION SECTION */
@@ -112,32 +113,32 @@ main {
 }
 
 #subscription-section .gradient {
-    background: rgb(169,15,144);
-    background: linear-gradient(90deg, rgba(169,15,144,1) 46%, rgba(28,25,87,1) 100%);
+    background: rgb(169, 15, 144);
+    background: linear-gradient(90deg, rgba(169, 15, 144, 1) 46%, rgba(28, 25, 87, 1) 100%);
     height: 87px;
 }
 
-#subscription-section div.title span{
+#subscription-section div.title span {
     color: #FFFFFF;
     font-size: 25px;
 }
 
-#subscription-section div.r-side{
-   border-left: 4px solid white;
-   padding-left: 12px;
+#subscription-section div.r-side {
+    border-left: 4px solid white;
+    padding-left: 12px;
 }
 
 
-#subscription-section div.r-side span{
+#subscription-section div.r-side span {
     color: #EBEBEB;
 }
 
-#subscription-section div.r-side .price-1{
+#subscription-section div.r-side .price-1 {
     font-size: 14px;
     text-decoration-line: line-through;
 }
 
-#subscription-section div.r-side .price-2{
+#subscription-section div.r-side .price-2 {
     font-size: 22px;
 }
 
@@ -157,7 +158,7 @@ main {
 #subscription-section div.subscribe-btn {
     padding: 8px 30px;
     border-radius: 6px;
-    background-color: #3483FA ;
+    background-color: #3483FA;
     font-size: 15px;
     color: #FFFFFF;
     font-weight: 600;
@@ -211,7 +212,7 @@ footer div.address span {
     font-size: 11px;
     color: #999999;
     font-weight: 400;
-    
+
 }
 
 footer div.legal {
@@ -245,26 +246,84 @@ footer div.legal {
 
 /* COLLECTION SECTION */
 
-#collection-section  div.left-side-description span.title {
+#collection-section div.left-side-description span.title {
     font-size: 26px;
     font-weight: 300;
 }
 
-#collection-section  div.left-side-description span.market {
+#collection-section div.left-side-description span.market {
     font-size: 26px;
     font-weight: 600;
 }
 
-#collection-section div.left-section div.description  div.discover {
-    font-size: 12px;    
+#collection-section div.left-section div.description div.discover {
+    font-size: 12px;
 }
 
 #collection-section div.left-section div.description div.super-market {
-    font-size: 28px;    
+    font-size: 28px;
     font-weight: 700;
 }
 
-#collection-section  div.secondary-items div {
+#collection-section div.secondary-items div {
     width: 25%;
     padding: 5px 5px;
+}
+
+/* STORE SECTION */
+
+#stores-section div.item-list div.item div.logo {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    /* background-color: #333333; */
+    margin-top: -40px;
+}
+
+#stores-section div.title span.title {
+    color: #666666;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#stores-section div.title span.view-more {
+    color: #3483FA;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#stores-section div.item-list div.item {
+    background-color: #FFFFFF;
+}
+
+#stores-section div.item-list div.item div.logo {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+#stores-section div.item-list div.item div.logo img {
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#stores-section div.item-list div.item div.title {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+#stores-section div.item-list div.item div.items img {
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding: 1px;
+}
+
+#stores-section div.item-list div.item div.view-store {
+    font-size: 15px;
+    font-weight: 600;
+    color: #bcbaba;
+    cursor: pointer;
 }
